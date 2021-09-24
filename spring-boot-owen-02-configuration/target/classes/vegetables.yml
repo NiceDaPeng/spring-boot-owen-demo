@@ -1,0 +1,6 @@
+server:
+  port: 8092
+vegetables:
+  potato: 土豆
+  eggplant: 茄子
+  greenpeper: 青椒

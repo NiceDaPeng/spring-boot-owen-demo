@@ -1,0 +1,7 @@
+server:
+  port:8090
+fruit:
+  orange: 橘子
+  apple: 苹果
+  banana: 香蕉
+

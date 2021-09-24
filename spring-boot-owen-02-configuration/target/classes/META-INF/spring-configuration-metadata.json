@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "food",
+      "type": "com.owen.config.FoodConfig",
+      "sourceType": "com.owen.config.FoodConfig"
+    },
+    {
+      "name": "fruit",
+      "type": "com.owen.config.FruitConfig",
+      "sourceType": "com.owen.config.FruitConfig"
+    },
+    {
+      "name": "vegetables",
+      "type": "com.owen.config.VegetablesConfig",
+      "sourceType": "com.owen.config.VegetablesConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "food.meat",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.FoodConfig"
+    },
+    {
+      "name": "food.rice",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.FoodConfig"
+    },
+    {
+      "name": "fruit.apple",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.FruitConfig"
+    },
+    {
+      "name": "fruit.banana",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.FruitConfig"
+    },
+    {
+      "name": "fruit.orange",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.FruitConfig"
+    },
+    {
+      "name": "vegetables.eggplant",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.greenpeper",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.potato",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.VegetablesConfig"
+    }
+  ],
+  "hints": []
+}

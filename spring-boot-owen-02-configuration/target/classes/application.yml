@@ -1,0 +1,6 @@
+server:
+  port: 8090
+
+food:
+  rice: 米饭
+  meat: 烤肉${food.rice}
