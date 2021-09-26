@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" th:href="@{/bootstrap.css}" media="all">
+    <title>Document</title>
+</head>
+<body class="container">
+
+<h2 >添加嘉宾</h2>
+<br>
+<form th:action="@{/guest}" method="POST" class="form-horizontal">
+    <div class="form-group">
+        <label for="name" class="col-sm-2 control-label">NAME</label>
+        <div class="col-sm-5">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Email">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="role" class="col-sm-2 control-label">ROLE</label>
+        <div class="col-sm-5">
+            <input type="text" class="form-control" id="role" name="role" placeholder="Password">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-success ">添加</button>
+        </div>
+    </div>
+</form>
+</body>
+</html>
