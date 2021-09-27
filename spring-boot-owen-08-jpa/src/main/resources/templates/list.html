@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" th:href="@{/bootstrap.css}" media="all">
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.6.0/jquery.js}"></script>
+    <title>Document</title>
+</head>
+<body class="container">
+
+<h2>中餐厅嘉宾列表</h2>
+<br>
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>名字</th>
+        <th>角色</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="guest:${guestList}">
+        <td th:text="${guest.name}">name</td>
+        <td th:text="${guest.role}">role</td>
+    </tr>
+    </tbody>
+</table>
+
+
+
+
+</body>
+</html>
