@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+#spring:
+#  mvc:
+#    view:
+#      #文件的位置  不能修改
+#      prefix: /templates/
+#      #        文件的后缀
+#      suffix: .ftl
+
+
+

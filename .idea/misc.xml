@@ -5,6 +5,14 @@
       <list>
         <option value="$PROJECT_DIR$/spring-boot-owen-01-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-owen-02-configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-owen-03-jasypt/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-owen-04-template/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-owen-05-thymeleaf-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-owen-06-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-owen-08-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-owen-orm-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-owen-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-owen-mybatis-spring/pom.xml" />
       </list>
     </option>
   </component>

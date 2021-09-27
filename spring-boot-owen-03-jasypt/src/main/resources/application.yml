@@ -1,0 +1,12 @@
+food:
+  orange: 橘子
+  apple: 苹果
+  pear: 梨子
+
+
+jasypt:
+  encryptor:
+    password: 1234565!@#$%
+info:
+  username: ENC(kInYuQ1DyIyfPx4iyMyFNg==)
+  password: ENC(wz1tU8Oh8b7jx6pzNxWUDw==)

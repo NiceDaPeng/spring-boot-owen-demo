@@ -2,7 +2,18 @@ server:
   port: 8090
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/restaruant?useSSL=false&characterEncoding=UTF-8
-    username: root
-    password: admin
-    driver-class-name: org.apache.ibatis.datasource.unpooled.UnpooledDataSource.DriverProxy
+    db1:
+      jdbc-url: jdbc:mysql://localhost:3306/restaruant?useSSL=false&characterEncoding=UTF-8
+      username: root
+      password: admin
+      driver-class-name: com.mysql.jdbc.Driver
+    db2:
+      jdbc-url: jdbc:mysql://localhost:3306/bak_schema?useSSL=false&characterEncoding=UTF-8
+      username: root
+      password: admin
+      driver-class-name: com.mysql.jdbc.Driver
+
+#mybatis:
+#  config-location: classpath:mybatis-config.xml
+#  mapper-locations: classpath*:/mybatis/mapper/*.xml
+#  type-aliases-package: com.owen.bean

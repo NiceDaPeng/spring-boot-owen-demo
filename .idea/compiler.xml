@@ -7,23 +7,44 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-owen-01-helloworld" />
+        <module name="spring-boot-owen-06-restful" />
         <module name="spring-boot-owen-02-configuration" />
+        <module name="spring-boot-owen-03-jasypt" />
+        <module name="spring-boot-owen-mybatisplus" />
+        <module name="spring-boot-owen-08-jpa" />
+        <module name="spring-boot-owen-05-thymeleaf-crud" />
+        <module name="spring-boot-owen-04-template" />
+        <module name="spring-boot-owen-orm-mybatis-plus" />
+        <module name="spring-boot-owen-01-helloworld" />
+        <module name="spring-boot-owen-orm-mybatis" />
+        <module name="spring-boot-owen-mybatis-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-owen-01-helloworld" target="8" />
       <module name="spring-boot-owen-02-configuration" target="8" />
+      <module name="spring-boot-owen-03-jasypt" target="8" />
       <module name="spring-boot-owen-03-login" target="8" />
       <module name="spring-boot-owen-03-profiles" target="8" />
+      <module name="spring-boot-owen-04-template" target="1.8" />
+      <module name="spring-boot-owen-05-thymeleaf-crud" target="1.8" />
+      <module name="spring-boot-owen-06-restful" target="1.8" />
+      <module name="spring-boot-owen-07-mybatis" target="1.8" />
+      <module name="spring-boot-owen-08-jpa" target="1.8" />
+      <module name="spring-boot-owen-mybatis-spring" target="1.8" />
+      <module name="spring-boot-owen-mybatisplus" target="1.8" />
+      <module name="spring-boot-owen-orm-mybatis" target="1.8" />
+      <module name="spring-boot-owen-orm-mybatis-plus" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-owen-01-helloworld" options="-parameters" />
       <module name="spring-boot-owen-02-configuration" options="-parameters" />
+      <module name="spring-boot-owen-03-jasypt" options="-parameters" />
       <module name="spring-boot-owen-03-login" options="-parameters" />
       <module name="spring-boot-owen-03-profiles" options="-parameters" />
+      <module name="spring-boot-owen-04-template" options="" />
     </option>
   </component>
 </project>
