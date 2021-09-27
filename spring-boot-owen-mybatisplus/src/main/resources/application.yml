@@ -1,0 +1,24 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    db1:
+       url: jdbc:mysql://localhost:3306/restaruant?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+       username: root
+       password: admin
+       driver-class-name: com.mysql.jdbc.Driver
+    db2:
+        url: jdbc:mysql://localhost:3306/restaruant?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+        username: root
+        password: admin
+        driver-class-name: com.mysql.jdbc.Driver
+
+
+
+#mybatis:
+#   指定mapper-config.xml的位置
+#  config-location: classpath:mybatis-config.xml
+#   指定sql的mapper文件位置
+#  mapper-locations: classpath*:/mybatis/mapper/*.xml
+#   指定别名
+#  type-aliases-package: com.owen.bean
