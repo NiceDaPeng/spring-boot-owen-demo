@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "food",
+      "type": "com.owen.config.FoodConfig",
+      "sourceType": "com.owen.config.FoodConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "food.apple",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.FoodConfig"
+    },
+    {
+      "name": "food.orange",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.FoodConfig"
+    },
+    {
+      "name": "food.pear",
+      "type": "java.lang.String",
+      "sourceType": "com.owen.config.FoodConfig"
+    }
+  ],
+  "hints": []
+}
