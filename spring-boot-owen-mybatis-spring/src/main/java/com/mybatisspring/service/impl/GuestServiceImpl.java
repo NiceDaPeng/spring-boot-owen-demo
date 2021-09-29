@@ -12,13 +12,13 @@ import java.util.List;
 @Service
 public class GuestServiceImpl implements GuestService {
 
-//    @Autowired
-//    private GuestMapper mapper1;
+    @Autowired
+    private GuestMapper mapper1;
 
     @Autowired
     private GuestMapper2 mapper;
     @Override
     public List<Guest> list() {
-        return mapper.list();
+        return mapper1.list();
     }
 }

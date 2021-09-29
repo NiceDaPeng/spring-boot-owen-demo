@@ -1,0 +1,7 @@
+server:
+  port: 8090
+
+# 通过yml配置进行加载监听器。
+context:
+  listener:
+    classes: com.owen.listener.CustomerListener4

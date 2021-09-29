@@ -36,6 +36,7 @@ public class GuestController  {
     @PostMapping("/add")
     public String add(Guest guest){
         guestService.save(guest);
+        System.out.println(1/0);
         return "redirect:/guest";
     }
 

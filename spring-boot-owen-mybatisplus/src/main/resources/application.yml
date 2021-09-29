@@ -2,16 +2,16 @@ server:
   port: 8090
 spring:
   datasource:
-    db1:
+
        url: jdbc:mysql://localhost:3306/restaruant?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
        username: root
        password: admin
        driver-class-name: com.mysql.jdbc.Driver
-    db2:
-        url: jdbc:mysql://localhost:3306/restaruant?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
-        username: root
-        password: admin
-        driver-class-name: com.mysql.jdbc.Driver
+#    db2:
+#        url: jdbc:mysql://localhost:3306/restaruant?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+#        username: root
+#        password: admin
+#        driver-class-name: com.mysql.jdbc.Driver
 
 
 

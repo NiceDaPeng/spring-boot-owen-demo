@@ -13,6 +13,8 @@
         <option value="$PROJECT_DIR$/spring-boot-owen-orm-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-owen-mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-owen-mybatis-spring/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-owen-event-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-web-container/pom.xml" />
       </list>
     </option>
   </component>

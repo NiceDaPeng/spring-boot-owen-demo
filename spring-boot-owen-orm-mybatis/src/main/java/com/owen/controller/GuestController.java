@@ -23,7 +23,6 @@ public class GuestController {
 
         List<Guest> guestList = guestService.findAll();
         model.addAttribute("guestList",guestList);
-
         return "list";
     }
 }
