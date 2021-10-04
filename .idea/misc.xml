@@ -15,6 +15,10 @@
         <option value="$PROJECT_DIR$/spring-boot-owen-mybatis-spring/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-owen-event-listener/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-web-container/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-filter-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-error-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatisplus-test/pom.xml" />
       </list>
     </option>
   </component>

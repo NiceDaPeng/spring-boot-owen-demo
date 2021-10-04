@@ -11,18 +11,26 @@
         <module name="spring-boot-owen-06-restful" />
         <module name="spring-boot-owen-02-configuration" />
         <module name="spring-boot-owen-mybatisplus" />
+        <module name="spring-boot-filter-interceptor" />
         <module name="spring-boot-owen-05-thymeleaf-crud" />
+        <module name="spring-boot-mybatisplus-test" />
         <module name="spring-boot-owen-03-jasypt" />
+        <module name="spring-boot-error-exception" />
         <module name="spring-boot-owen-08-jpa" />
         <module name="spring-boot-owen-04-template" />
         <module name="spring-boot-owen-orm-mybatis-plus" />
         <module name="spring-boot-owen-01-helloworld" />
         <module name="spring-boot-owen-orm-mybatis" />
+        <module name="spring-boot-listener" />
         <module name="spring-boot-web-container" />
         <module name="spring-boot-owen-mybatis-spring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="spring-boot-error-exception" target="1.8" />
+      <module name="spring-boot-filter-interceptor" target="1.8" />
+      <module name="spring-boot-listener" target="1.8" />
+      <module name="spring-boot-mybatisplus-test" target="1.8" />
       <module name="spring-boot-owen-01-helloworld" target="8" />
       <module name="spring-boot-owen-02-configuration" target="8" />
       <module name="spring-boot-owen-03-jasypt" target="8" />
